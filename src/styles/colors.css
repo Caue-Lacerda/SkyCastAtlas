@@ -1,0 +1,48 @@
+:root {
+  /* Neutrals */
+  --neutral-50:  #f9fafb;    
+  --neutral-100: #f3f4f6;    
+  --neutral-300: #d1d5db;     
+  --neutral-400: #9ca3af;    
+  --neutral-500: #6b7280;     
+  --neutral-600: #4b5563;    
+  --neutral-700: #374151;     
+  --neutral-800: #1f2937;  
+  --neutral-900: #111827; 
+  --neutral-950: #030712;   
+
+  /* Blacks & Alphas */
+  --black-950-20: rgba(3, 7, 18, 0.2);
+  --black-950-30: rgba(3, 7, 18, 0.3);
+  --black-950-50: rgba(3, 7, 18, 0.5); 
+  --black-950-60: rgba(3, 7, 18, 0.6); 
+  --black-950-80: rgba(3, 7, 18, 0.8); 
+  --allblack-500: rgba(0, 0, 0, 0.5);  
+
+  /* Elementos de UI */
+  --border-card: rgba(255, 255, 255, 0.3); 
+  --neutral-200-20: #e5e7eb2a;           
+  --neutral-800-70: #1f2937a9;           
+  --neutal-900-10: #11182710;              
+  --gray-300: rgba(255, 255, 255, 0.3);      
+  --transparent: transparent;                 
+
+  /* Cores de Dados e Alertas */
+  --red-s-575: rgba(175, 40, 40, 0.575);     
+  --red-s-305: rgba(175, 40, 40, 0.305);     
+  --red: rgba(255, 0, 0);               
+  --red-350: rgba(255, 0, 0, 0.350);         
+  --yellow-500: rgba(255, 255, 0, 0.5);       
+  --teal: teal;                              
+  --teal-680: rgba(0, 128, 128, 0.68);      
+  --blue: rgba(0, 0, 255);                    
+  --blue-350: rgba(0, 0, 255, 0.350);         
+  --blue-light: rgb(0, 119, 128);             
+  --blue-light-350: rgba(0, 119, 128, 0.35);  
+
+  /* Botões de Navegação */
+  --button-hours-back: rgba(133, 137, 131, 0.35);    
+  --button-hours-back-hover: rgb(144, 145, 144);     
+  --button-hours-svg-color: rgb(142, 145, 141);   
+  --button-hours-svg-color-hover: rgb(59, 59, 59);  
+}

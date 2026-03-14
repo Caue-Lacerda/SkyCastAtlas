@@ -1,0 +1,133 @@
+.dayContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 0.35rem;
+  background-color: var(--allblack-500);
+  backdrop-filter: blur(50px); 
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid var(--gray-300);
+}
+
+.dayContainer {
+  width: 100%;
+}
+
+.dayContainerData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.dayContainerData h1, h2, h3, h4 {
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--neutral-400);
+}
+
+.cardDayh2Container {
+  background-color: var(--red-350); 
+  border-radius: 20px; 
+  padding: 0rem 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.cardDayh2Container svg {
+  width: 1rem;
+  color: var(--red);
+}
+
+.cardDayh2Container > h2 > span {font-size: 0.8rem; vertical-align: top;}
+
+.cardDayh3Container {
+  background-color: var(--blue-light-350); 
+  border-radius: 20px; 
+  padding: 0rem 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.cardDayh3Container svg {
+  width: 1rem;
+  color: var(--blue-light);
+}
+
+.cardDayh3Container > h3 > span {font-size: 0.8rem; vertical-align: top;}
+
+.cardDayh4Container {
+  background-color: var(--blue-350); 
+  border-radius: 20px; 
+  padding: 0rem 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.cardDayh4Container svg {
+  width: 1rem;
+  fill:  var(--blue); 
+}
+
+.cardButtonHoursContainer button {
+  outline: none;
+  border: none;
+  background-color: var(--button-hours-back);
+  border-radius: 20px;
+  padding: 0rem 0.4rem;
+  transition: all 0.5s ease;
+}
+
+.cardButtonHoursContainer button:hover {background-color: var(--button-hours-back-hover)}
+
+.cardButtonHoursContainer svg {
+  width: 2rem;
+  margin: auto;
+  color: var(--button-hours-svg-color);
+}
+
+.cardButtonHoursContainer svg:hover {color: var(--button-hours-svg-color-hover);}
+
+@media (max-width: 768px) {
+  .dayContainerData {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.4rem
+  }
+
+  .cardDayh1Container > h1 {font-size: 1.3rem;}
+}
+
+@media (max-width: 480px) {
+  .dayContainer {width: 18rem;}
+
+  .dayContainerData {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.4rem
+  }
+
+  .cardDayh1Container > h1 {font-size: 0.8rem;}
+
+  .cardButtonHoursContainer svg {
+    width: 1rem;
+    padding: 0rem;
+  }
+
+  .cardDayh2Container > h2 {font-size: 0.8em;}
+  .cardDayh2Container > h2 > span {font-size: 0.7em;}
+  .cardDayh3Container > h3 {font-size: 0.8em;}
+  .cardDayh3Container > h3 > span {font-size: 0.7em;}
+  .cardDayh4Container > h4 {font-size: 0.8em;}
+  .cardDayh4Container svg {width: 0.5rem;}
+}

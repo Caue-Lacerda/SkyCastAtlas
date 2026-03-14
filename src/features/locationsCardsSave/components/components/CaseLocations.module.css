@@ -1,0 +1,78 @@
+.caseLocationsContainer {
+  padding: 0.25rem;
+  width: 15.625rem;
+  background-color: var(--neutral-200-20);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.21875rem;
+}
+
+.caseLocationsContainer > div:not(.buttonActionsDiv) {
+  width: 95%;
+  display: flex;
+  background-color: var(--neutral-300);
+  border-radius: 20px;
+}
+
+.caseLocationsContainer > h1 {
+  width: 100%;
+  text-align: center;
+  color: var(--neutral-100); 
+  font-size: 1.4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal; 
+  background-color: var(--neutral-600);
+  border-radius: 20px;
+}
+
+.caseLocationsContainer > div > h2 {
+  width: 2.03125rem;
+  text-align: center;
+  padding: 0.125rem 0.1875rem;
+  color: var(--neutral-100); 
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal; 
+  background-color: var(--neutral-600);
+  border-radius: 20px;
+}
+
+.caseLocationsContainer > div > h6 {
+  padding-left: 0.3125rem;
+  width: fit-content;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: var(--red-s-575);
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+.buttonActionsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.buttonActionsDiv img {
+  height: 100%;
+}
+
+.buttonActionsDiv > button {
+  width: 2.8125rem;
+  height: 1.875rem;
+  border: none;
+  border-radius: 10px;
+  color: var(--neutral-100);
+  font-size: 0.75rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  background-color: var(--red-s-575);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  cursor: pointer;
+}

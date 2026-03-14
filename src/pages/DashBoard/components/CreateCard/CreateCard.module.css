@@ -1,0 +1,125 @@
+.mapsContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black-950-80);
+  background-image: radial-gradient(var(--neutral-800) 1px, transparent 0);
+  background-size: 10px 10px; 
+  background-position: -19px -19px; 
+  transition: border-color 1.5s ease;
+  z-index: 2;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.divFormSaveLoad {
+  margin-top: 1.25rem;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.exitWindow {
+  width: fit-content;
+  padding: 1rem;
+  background-color: var(--transparent);
+  border: 1px solid var(--neutral-500);  
+  border-radius: 20px;
+}
+
+.exitWindow > button {
+  width: 2rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.exitWindow > button > img {
+  width: 100%;
+  transition: all 0.6s ease;
+}
+
+.exitWindow > button > img:hover { opacity: 0.6; }
+
+.mapContainerFormSelect {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mapSelectLocation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mapSelectLocation > button {
+  width: fit-content;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: var(--neutral-100);
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  background-color: var(--red-s-575);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  cursor: pointer;
+  transition: all 0.6s ease;
+  box-shadow: 1px 1px 5px var(--neutral-800);
+}
+
+.mapSelectLocation > button:hover { opacity: 0.6; }
+
+.mapOpenRenderDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 3;
+  background-color: var(--black-950-80);
+}
+
+@media (max-width: 512px) {
+  .mapsContainer {
+    padding: 0.625 0px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+    scrollbar-width: none;        
+    -ms-overflow-style: none; 
+  }
+
+  .mapDiv {
+    margin-bottom: 9.375rem;
+    width: 90%;
+    height: 25rem;
+  }
+
+  .divFormSaveLoad {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+}
+
