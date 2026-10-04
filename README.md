@@ -19,14 +19,14 @@
 
 ### ✨ Visão Geral
 
-O **SkyCast Atlas** marca minha transição para o ecossistema React no Mês 2 do Roadmap. É uma plataforma de monitoramento climático que combina consumo de APIs assíncronas, gerenciamento de estado e uma interface moderna com foco em UX.
+O **SkyCast Atlas** marca minha transição para o ecossistema React. É uma plataforma de monitoramento climático que combina consumo de APIs assíncronas, gerenciamento de estado e uma interface moderna com foco em UX.
 
 > **Note:**
 > Evolução direta do motor Vanilla anterior, agora aplicando hooks customizados e renderização.
 
 ---
 
-### 🏗️ A Engenharia (O Diferencial)
+### 🏗️ Funcionamento (O Diferencial)
 
 O projeto foca em performance e modularidade, utilizando **TanStack Query** para cache inteligente de dados e **CSS Modules** para escopo isolado de estilos.
 
